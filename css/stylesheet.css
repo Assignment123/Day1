@@ -1,0 +1,27 @@
+.header{
+ background-color: aqua;
+ text-align: center;
+ padding: 1%;
+}
+.navigation{
+    overflow: hidden;
+    float: left;
+    color: cornsilk;
+    text-align: center;
+    background-color: blue;
+    width: 100%;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.navigation a:hover {
+    background-color: #ddd;
+    color: rgb(247, 6, 6);
+}
