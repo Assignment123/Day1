@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+
+</head>
+<body>
+        <h1 class="heading">SCIENTIFIC CALCULATOR</h1>
+    <div class="container">
+  <div class="view"> <form name="calc" onsubmit="calculateFinalValue()"><input id="display" type="text" name="display" value="" maxlength="40" contenteditable="true" >
+  </form>  
+    </div>
+        <div class="firstbuttons">
+            <p>
+                <input type="button" value="&radic;" class="button" onClick= "square_root(calc)">
+                <input type="button" value="π" class="button" onClick="pi(calc)">               
+                <input type="button" value="log" class="button" onClick="log(calc)">
+                <input type="button" value="%" class="button" onClick="calc.display.value+='%'">
+                <input type="button" value="Clear" class="button" onClick="calc.display.value=''">
+            </p>
+            <p>
+                <input type="button" value="sin" class="button" onClick="sin(calc)">  
+                <input type="button" value="cos" class="button" onClick="cos(calc)">
+                <input type="button" value="tan" class="button" onClick="tan(calc)">                
+                <input type="button" value="DEL" class="button" onClick="backspace(calc)">
+            </p>
+            <p>
+                <input type="button" value="7" class="button" onClick="calc.display.value+=7">
+                <input type="button" value="8" class="button" onClick="calc.display.value+=8">
+                <input type="button" value="9" class="button" onClick="calc.display.value+=9">
+                <input type="button" value="÷" class="button" onClick="calc.display.value+='/'">
+            </p>
+            <p>
+                <input type="button" value="4" class="button" onClick="calc.display.value+=4">
+                <input type="button" value="5" class="button" onClick="calc.display.value+=5">
+                <input type="button" value="6" class="button" onClick="calc.display.value+=6">
+                <input type="button" value="×" class="button" onClick="calc.display.value+='*'">
+            </p>
+            <p>
+                <input type="button" value="1" class="button" onClick="calc.display.value+=1">
+                <input type="button" value="2" class="button" onClick="calc.display.value+=2">
+                <input type="button" value="3" class="button" onClick="calc.display.value+=3">
+                <input type="button" value="-" class="button" onClick="calc.display.value+='-'">
+            </p>
+            <p>
+                <input type="button" value="." class="button" onClick="calc.display.value+='.'">
+                <input type="button" value="0" class="button" onClick="calc.display.value+=0">
+                <input type="button" value="=" class="button" onClick="calc.display.value= eval(calc.display.value)">
+                <input type="button" value="+" class="button" onClick="calc.display.value+='+'">
+            </p>
+    </div>
+    </div>
+    <script src="calculator.js"></script>
+
+</body>
+</html>
