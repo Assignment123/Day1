@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To Do List</title>
+  
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="todolist not-done">
+                 <h1>My To Do List</h1>
+                    <input type="text" id="myInput" placeholder="Add ToDo">
+                    <button id="checkAll" onclick="newElement()" class="btn btn-success">Add ToDo</button>  
+                        <hr>
+                        <ul id="myUL" class="list-unstyled">
+                        <li><input type="checkbox" id="check" checked />Add a To-Do List</li>
+                        <li> <input type="checkbox" id="check" checked />Read java</li>
+                        <li> <input type="checkbox" id="check" />Make a website</li>
+                        <li> <input type="checkbox" id="check" />Add another list</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="ToDo.js"></script>
+</body>
+</html>
