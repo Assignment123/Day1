@@ -1,0 +1,41 @@
+.heading{
+    color: #000000;
+}
+.container{
+    background-color: #212F3C;
+    height: 350px;
+    width: 300px;
+    position: relative;
+    top: 20px;
+    left: 35%;
+}
+.view{
+    height: 20px;
+    width: 200px;
+    position: relative;
+    top: 10px;
+    margin-left: 6%;
+}
+.view input{
+    position: relative;
+    color: #000000;
+    background-color: #839192;
+    font-size: 25px;
+    text-align: right;
+    height: 30px;
+    width: 260px;
+}
+.firstbuttons{
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+.button{
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
